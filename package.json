@@ -1,0 +1,25 @@
+{
+    "name": "coinone",
+    "version": "1.0.1",
+    "description": "Coinone API module",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha ./tests/all.spec.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xhad/coinone.git"
+    },
+    "keywords": [
+        "Bitcoin",
+        "Ethereum",
+        "Exchange",
+        "trading"
+    ],
+    "author": "Chad Lynch",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/xhad/coinone/issues"
+    },
+    "homepage": "https://github.com/xhad/coinone#readme"
+}
