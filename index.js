@@ -59,7 +59,7 @@ class CoinOne {
 
   cancel(params) {
     return this._request
-      .post(this.v + '/order/' + 'cancel', null);
+      .post(this.v + '/order/' + 'cancel', params);
   }
 
   limitBuy(params) {
