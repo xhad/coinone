@@ -4,7 +4,7 @@ Please see documentation at:
 
 http://doc.coinone.co.kr
 
-###As Node module
+## As Node module
 
 ```js
 const coinOne = require('coinone');
@@ -19,7 +19,7 @@ CoinOne.userInfo().then((r) => {
 
 ```
 
-###From Source
+## From Source
 
 Create 'config.js' file with your token and secret.
 
