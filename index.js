@@ -21,8 +21,8 @@ class CoinOne {
     return this._request.get('/trades');
   }
 
-  ticker() {
-    return this._request.get('/ticker');
+  ticker(currency) {
+    return this._request.get('/ticker?currency=' + currency);
   }
 
   //>> ACCOUNT Endpoints
